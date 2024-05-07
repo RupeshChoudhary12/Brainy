@@ -1,0 +1,70 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.a{
+  height: 40px;
+  width: 80px;
+  border-radius: 20px ;
+}
+
+.b{
+  height: 40px;
+  width: 140px;
+  border-radius: 20px;
+  background-color: darkorange;
+  color: #ffff;
+}
+.b:hover{
+  background-color: #b3ce1c;
+  color: #fff;
+}
+.c:hover{
+  background-color: #b3ce1c;
+  color: #fff;
+}
+.d:hover{
+  background-color: #b3ce1c;
+  color: #fff;
+}
+.c{
+  height: 40px;
+  width: 100px;
+  border-radius: 20px;
+  background-color: lawngreen;
+  color: #fff;
+}
+.d{
+  height: 40px;
+  width: 100px;
+  border-radius: 20px;
+  background-color: #8f94fb;
+  color: #fff;
+}
+.card {
+  width: 18rem;
+  background: #4e54c8;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #8f94fb, #4e54c8);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #8f94fb, #4e54c8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.aa {
+  width: 150px;
+  border-radius: 20px;
+}
+
+.aaa{
+  background: #2b5876;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4e4376, #2b5876);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4e4376, #2b5876); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.galaxy {
+  background-image: url(./assets/Image/galaxy.jpg);
+  background-size: cover;
+  background-position: center;
+}
